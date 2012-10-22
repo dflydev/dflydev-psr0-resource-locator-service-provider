@@ -21,7 +21,7 @@
         "dflydev/psr0-resource-locator": "1.*@dev"
     },
     "suggest": {
-        "dflydev/psr0-resource-locator-composer": "PSR-0 Resource Locator for use with Composer managed projects"
+        "dflydev/psr0-resource-locator-composer-service-provider": "PSR-0 Resource Locator for use with Composer managed projects"
     },
     "autoload": {
         "psr-0": {
