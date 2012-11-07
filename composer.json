@@ -17,11 +17,8 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "silex/silex": "1.*@dev",
-        "dflydev/psr0-resource-locator": "1.*@dev"
-    },
-    "suggest": {
-        "dflydev/psr0-resource-locator-composer-service-provider": "PSR-0 Resource Locator for use with Composer managed projects"
+        "silex/silex": "1.0.*@dev",
+        "dflydev/psr0-resource-locator-implementation-service-provider": "1.0.*@dev"
     },
     "autoload": {
         "psr-0": {

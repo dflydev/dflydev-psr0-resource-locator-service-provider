@@ -6,7 +6,7 @@ php:
   - 5.4
 
 before_script:
-  - wget -nc http://getcomposer.org/composer.phar
-  - php composer.phar install --dev
+  - php tests/massage-composer-for-testing.php
+  - COMPOSER=tests/composer.json composer install --dev
 
 script: phpunit --coverage-text --verbose

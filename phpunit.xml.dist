@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit colors="true" bootstrap="vendor/autoload.php">
+<phpunit colors="true" bootstrap="tests/bootstrap.php">
     <testsuites>
         <testsuite name="PSR-0 Resource Locator Silex Service Provider Test Suite">
             <directory>./tests/Dflydev/Silex/Provider/Psr0ResourceLocator</directory>
