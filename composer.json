@@ -18,6 +18,7 @@
     "require": {
         "php": ">=5.3.3",
         "silex/silex": "1.0.*@dev",
+        "dflydev/psr0-resource-locator": "1.0.*@dev",
         "dflydev/psr0-resource-locator-implementation-service-provider": "1.0.*@dev"
     },
     "autoload": {
